@@ -139,7 +139,7 @@ function OPACK.pack(data, object_list)
 		,{ 
 			condition = function(data) return type(data) == "boolean" end
 			, callback = function(data)  
-				table.insert(message, data and 1 or 0)
+				table.insert(message, data and 1 or 2)
 			end 
 		}
 
